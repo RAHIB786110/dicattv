@@ -1,0 +1,267 @@
+@media screen and (orientation:portrait) {
+            
+    body {
+        display: grid;
+        grid-template-columns:12fr;
+    }
+    header {
+        grid-row: 1;
+        
+        
+    }
+    
+    section {
+        grid-row: 2;
+        
+    }
+    footer {
+        grid-row: 3;
+       
+    }
+}
+
+nav ul li{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: black;
+}
+header h3{
+    font-size: 50px;
+    color: white;
+    margin-top: 60px;
+}
+header h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 30px;
+}
+header p{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;}
+header .img{
+ margin-top: 60px;
+}
+header .button{
+    width: 170px;
+    height: 45px;
+    border:1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    list-style: none;
+}
+header .button:hover{
+    background-color: black;
+    color: white;
+}
+header .button2{
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.box .box1{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    margin-bottom:-25px;
+    text-align: center;
+    padding: 20px;
+    padding: 20px;
+}
+.box .box1:hover{
+    width: 350px;
+    height: 350px;
+    background-color: darkgreen;
+    margin-bottom:-25px;
+    text-align: center;
+    padding: 20px;
+    padding: 20px;
+    
+}
+.box .box2{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin-bottom:-25px;
+    text-align: center;
+    padding: 20px;
+    padding: 20px;
+    
+}
+.box .box2:hover{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    margin-bottom:-25px;
+    text-align: center;
+    padding: 20px;
+    padding: 20px;
+    
+}
+.box .box1 div{
+    margin-top: 30px;
+    color: white;
+}
+
+.box .box2 div{
+    margin-top: 30px;
+    color: black;
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.content{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.card2{
+    
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    
+}
+.cards{
+background-color: white;
+text-align: center;
+margin: 10px;
+margin-top: 40px;
+
+
+}
+.header{
+    font-size: 26px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+}
+.title{
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.card-price{
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.footer{
+    font-size: 28px;
+    font-family: arial;
+    color: black;
+    margin-top: 15px;
+
+}
+.content3{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card2 .button{
+    width: 170px;
+    height: 45px;
+    margin-top: 40px;
+    
+    
+    
+}
+.button5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.button5 button{
+    width: 170px;
+    height: 55px;
+    border-radius: 25px;
+}
+.content6 h1{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 46px;
+}
+.started{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.miller{
+    font-size: 26px;
+    font-weight: bold;
+}
+.subscribe-now{
+    background-color: red;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.subscribe{
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.subscribe-email{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.subscribe-email input{
+    width: 500px;
+    height: 60px;
+    border: none;
+    font-size: 24px;
+    border-radius: 50px;
+}
+.subscribe-email button{
+    width: 270px;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer-head{
+   font-size: 26px;
+   font-weight: bold;
+   margin-top: 15px;
+}
+.footer-para{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.footer-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 32px;
+}
